@@ -7,6 +7,10 @@
     "lint": "eslint .",
     "test": "tape test/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahutchings/shrinkwrap-changelog.git"
+  },
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (http://andrewhutchings.com)",
   "license": "ISC",
   "devDependencies": {
