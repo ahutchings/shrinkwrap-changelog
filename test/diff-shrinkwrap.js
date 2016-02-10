@@ -36,9 +36,16 @@ test('diffs shrinkwraps with a dependency version change', function (t) {
     changed: [{
       name: 'request',
       path: [],
-      source: 'npm',
-      previousVersion: '2.59.1',
-      version: '2.60.0'
+      current: {
+        version: '2.60.0',
+        from: 'request@2.60.0',
+        resolved: 'https://registry.npmjs.org/request/-/request-2.60.0.tgz'
+      },
+      previous: {
+        version: '2.59.1',
+        from: 'request@2.59.1',
+        resolved: 'https://registry.npmjs.org/request/-/request-2.59.1.tgz'
+      },
     }]
   };
 
@@ -90,9 +97,16 @@ test('diffs shrinkwraps with a nested dependency version change', function (t) {
     changed: [{
       name: 'graceful-fs',
       path: ['request'],
-      source: 'npm',
-      previousVersion: '1.1.5',
-      version: '1.1.6'
+      current: {
+        version: '1.1.6',
+        from: void 0,
+        resolved: 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.6.tgz'
+      },
+      previous: {
+        version: '1.1.5',
+        from: void 0,
+        resolved: 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.5.tgz'
+      }
     }]
   };
 
@@ -136,8 +150,11 @@ test('diffs shrinkwraps with an added dependency', function (t) {
     added: [{
       name: 'graceful-fs',
       path: ['request'],
-      source: 'npm',
-      version: '1.1.6'
+      current: {
+        version: '1.1.6',
+        from: void 0,
+        resolved: 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.6.tgz'
+      }
     }],
     removed: [],
     changed: []
@@ -184,8 +201,11 @@ test('diffs shrinkwraps with a removed dependency', function (t) {
     removed: [{
       name: 'graceful-fs',
       path: ['request'],
-      source: 'npm',
-      previousVersion: '1.1.6'
+      previous: {
+        version: '1.1.6',
+        from: void 0,
+        resolved: 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.6.tgz'        
+      }
     }],
     changed: []
   };
