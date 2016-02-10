@@ -4,8 +4,7 @@
   "description": "Generates a changelog based on the difference between two shrinkwrap files.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "tape test/*.js"
+    "test": "standard && tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,7 @@
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (http://andrewhutchings.com)",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^1.7.3",
+    "standard": "^6.0.4",
     "tape": "^4.2.0"
   }
 }
