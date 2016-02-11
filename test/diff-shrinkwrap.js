@@ -212,3 +212,92 @@ test('diffs shrinkwraps with a removed dependency', function (t) {
 
   t.deepEqual(actual, expected)
 })
+
+test('diffs shrinkwraps with git dependencies that have differing "resolved" values but the same version', function (t) {
+  t.plan(1)
+
+  var previousShrinkwrap = {
+    name: 'git-resolved',
+    version: '0.0.0',
+    dependencies: {
+      'repository': {
+        'version': '1.0.0',
+        'from': 'git://github.com/username/repository.git',
+        'resolved': 'git://github.com/username/repository.git#b0e7b9ad9d74e3338943c80fec64e3e72c088660'
+      }
+    }
+  }
+
+  var shrinkwrap = {
+    name: 'git-resolved',
+    version: '0.0.0',
+    dependencies: {
+      'repository': {
+        'version': '1.0.0',
+        'from': 'git://github.com/username/repository.git',
+        'resolved': 'git://github.com/username/repository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
+      }
+    }
+  }
+
+  var actual = diff(previousShrinkwrap, shrinkwrap)
+
+  var expected = {
+    added: [],
+    removed: [],
+    changed: [{
+      name: 'repository',
+      path: [],
+      previous: {
+        version: '1.0.0',
+        from: 'git://github.com/username/repository.git',
+        resolved: 'git://github.com/username/repository.git#b0e7b9ad9d74e3338943c80fec64e3e72c088660'
+      },
+      current: {
+        version: '1.0.0',
+        from: 'git://github.com/username/repository.git',
+        resolved: 'git://github.com/username/repository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
+      }
+    }]
+  }
+
+  t.deepEqual(actual, expected)
+})
+
+test('diffs shrinkwraps with git dependencies that have differing URLs but not differing revisions', function (t) {
+  t.plan(1)
+
+  var previousShrinkwrap = {
+    name: 'git-resolved',
+    version: '0.0.0',
+    dependencies: {
+      'repository': {
+        'version': '1.0.0',
+        'from': 'git://github.com/username/repository.git',
+        'resolved': 'git://github.com/username/repository.git#b0e7b9ad9d74e3338943c80fec64e3e72c088660'
+      }
+    }
+  }
+
+  var shrinkwrap = {
+    name: 'git-resolved',
+    version: '0.0.0',
+    dependencies: {
+      'repository': {
+        'version': '1.0.0',
+        'from': 'git://bitbucket.org/username/repository.git',
+        'resolved': 'git://bitbucket.org/username/repository.git#b0e7b9ad9d74e3338943c80fec64e3e72c088660'
+      }
+    }
+  }
+
+  var actual = diff(previousShrinkwrap, shrinkwrap)
+
+  var expected = {
+    added: [],
+    removed: [],
+    changed: []
+  }
+
+  t.deepEqual(actual, expected)
+})

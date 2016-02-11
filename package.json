@@ -15,5 +15,8 @@
   "devDependencies": {
     "standard": "^6.0.4",
     "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "npm-package-arg": "^4.1.0"
   }
 }
