@@ -2,6 +2,7 @@
   "name": "shrinkwrap-changelog",
   "version": "1.0.0",
   "description": "Generates a changelog based on the difference between two shrinkwrap files.",
+  "bin": "bin/shrinkwrap-changelog",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test/*.js"
@@ -17,6 +18,8 @@
     "tape": "^4.2.0"
   },
   "dependencies": {
+    "bluebird": "^3.3.0",
+    "child-process-promise": "^1.1.0",
     "npm-package-arg": "^4.1.0"
   }
 }
