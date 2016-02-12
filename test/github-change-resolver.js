@@ -19,7 +19,10 @@ test('returns a rejected promise if the resolved URL is not hosted by GitHub', f
     resolved: 'git://bitbucket.org/myproject/myrepository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
   }
 
-  var resolver = buildGithubResolver()
+  var resolver = buildGithubResolver({
+    username: 'my_username',
+    password: 'my_token'
+  })
 
   resolver(previous, current)
     .then((results) => {
@@ -31,10 +34,10 @@ test('returns a rejected promise if the resolved URL is not hosted by GitHub', f
     })
 })
 
-test('builds GitHub request url', function (t) {
-  t.plan(1)
+test('builds GitHub request url and Authorization header', function (t) {
+  t.plan(2)
 
-  var jsonPromise = Promise.resolve({values: []})
+  var jsonPromise = Promise.resolve({commits: []})
 
   var responsePromise = Promise.resolve({
     json: function () {
@@ -43,8 +46,10 @@ test('builds GitHub request url', function (t) {
   })
 
   var requestedUrl
-  var fetchStub = function (requestUrl) {
+  var requestedOptions
+  var fetchStub = function (requestUrl, options) {
     requestedUrl = requestUrl
+    requestedOptions = options
     return responsePromise
   }
 
@@ -64,12 +69,22 @@ test('builds GitHub request url', function (t) {
     resolved: 'git://github.com/myproject/myrepository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
   }
 
-  var resolver = buildGithubResolver()
+  var resolver = buildGithubResolver({
+    username: 'my_username',
+    password: 'my_token'
+  })
 
   resolver(previous, current)
-
-  var expectedUrl = 'https://api.github.com/repos/myproject/myrepository/compare/b0e7b9ad9d74e3338943c80fec64e3e72c088660...e647c363347589feaeca1fbb5de4d2efccea9d68'
-  t.equal(requestedUrl, expectedUrl)
+    .then(() => {
+      var expectedUrl = 'https://api.github.com/repos/myproject/myrepository/compare/b0e7b9ad9d74e3338943c80fec64e3e72c088660...e647c363347589feaeca1fbb5de4d2efccea9d68'
+      t.equal(requestedUrl, expectedUrl)
+      t.deepEqual(requestedOptions, {
+        headers: {
+          Authorization: 'Basic bXlfdXNlcm5hbWU6bXlfdG9rZW4='
+        }
+      })
+    })
+    .catch(t.end)
 })
 
 test('resolves changes for a GitHub package', function (t) {
@@ -103,7 +118,10 @@ test('resolves changes for a GitHub package', function (t) {
     resolved: 'git://github.com/myproject/myrepository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
   }
 
-  var resolver = buildGithubResolver()
+  var resolver = buildGithubResolver({
+    username: 'my_username',
+    password: 'my_token'
+  })
 
   var expected = [{
     timestamp: new Date('2016-02-12T17:24:16Z'),
