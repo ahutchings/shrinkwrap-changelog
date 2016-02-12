@@ -68,7 +68,7 @@ test('builds stash request url', function (t) {
 
   resolver(previous, current)
 
-  var expectedUrl = 'https://stash.mycompany.com/rest/api/1.0/projects/myproject/repos/myrepository/compare/commits?from=b0e7b9ad9d74e3338943c80fec64e3e72c088660&to=e647c363347589feaeca1fbb5de4d2efccea9d68'
+  var expectedUrl = 'https://stash.mycompany.com/rest/api/1.0/projects/myproject/repos/myrepository/commits?from=b0e7b9ad9d74e3338943c80fec64e3e72c088660&to=e647c363347589feaeca1fbb5de4d2efccea9d68'
   t.equal(requestedUrl, expectedUrl)
 })
 
