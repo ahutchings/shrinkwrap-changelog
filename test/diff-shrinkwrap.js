@@ -249,12 +249,12 @@ test('diffs shrinkwraps with git dependencies that have differing "resolved" val
       name: 'repository',
       path: [],
       previous: {
-        version: '1.0.0',
+        version: 'b0e7b9ad9d74e3338943c80fec64e3e72c088660',
         from: 'git://github.com/username/repository.git',
         resolved: 'git://github.com/username/repository.git#b0e7b9ad9d74e3338943c80fec64e3e72c088660'
       },
       current: {
-        version: '1.0.0',
+        version: 'e647c363347589feaeca1fbb5de4d2efccea9d68',
         from: 'git://github.com/username/repository.git',
         resolved: 'git://github.com/username/repository.git#e647c363347589feaeca1fbb5de4d2efccea9d68'
       }
