@@ -6,11 +6,13 @@
 ## API Usage
 
 ```
+var stashResolver = require('shrinkwrap-changelog/lib/change-resolvers/stashResolver')
+
 var generateChangelog = require('shrinkwrap-changelog')({
   changeResolvers: [
-    function (previous, current) {
-      return Promise.reject()
-    }
+    stashResolver({
+      hostname: 'stash.mycompany.com'
+    })
   ]
 })
 
