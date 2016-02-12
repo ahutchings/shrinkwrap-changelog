@@ -5,7 +5,7 @@
 
 ## API Usage
 
-```
+```javascript
 var stashResolver = require('shrinkwrap-changelog/lib/change-resolvers/stashResolver')
 
 var generateChangelog = require('shrinkwrap-changelog')({
