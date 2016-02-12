@@ -1,0 +1,508 @@
+
+{
+  "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/compare/7a9c8c63b50978a718819425ea6abd2ec1b6f893...b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+  "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/compare/7a9c8c63b50978a718819425ea6abd2ec1b6f893...b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+  "permalink_url": "https://github.com/ahutchings/shrinkwrap-changelog/compare/ahutchings:7a9c8c6...ahutchings:b67b988",
+  "diff_url": "https://github.com/ahutchings/shrinkwrap-changelog/compare/7a9c8c63b50978a718819425ea6abd2ec1b6f893...b67b988d7aea4b2b23d43a45416bf41ea14dce2e.diff",
+  "patch_url": "https://github.com/ahutchings/shrinkwrap-changelog/compare/7a9c8c63b50978a718819425ea6abd2ec1b6f893...b67b988d7aea4b2b23d43a45416bf41ea14dce2e.patch",
+  "base_commit": {
+    "sha": "7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "commit": {
+      "author": {
+        "name": "Andrew Hutchings",
+        "email": "andrew.hutchings@gmail.com",
+        "date": "2016-02-12T17:18:48Z"
+      },
+      "committer": {
+        "name": "Andrew Hutchings",
+        "email": "andrew.hutchings@gmail.com",
+        "date": "2016-02-12T17:18:48Z"
+      },
+      "message": "Fix lint error",
+      "tree": {
+        "sha": "82efc93f566266f1ed02c86cac43c3b2894f919a",
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/82efc93f566266f1ed02c86cac43c3b2894f919a"
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893/comments",
+    "author": {
+      "login": "ahutchings",
+      "id": 35026,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahutchings",
+      "html_url": "https://github.com/ahutchings",
+      "followers_url": "https://api.github.com/users/ahutchings/followers",
+      "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+      "repos_url": "https://api.github.com/users/ahutchings/repos",
+      "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ahutchings",
+      "id": 35026,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahutchings",
+      "html_url": "https://github.com/ahutchings",
+      "followers_url": "https://api.github.com/users/ahutchings/followers",
+      "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+      "repos_url": "https://api.github.com/users/ahutchings/repos",
+      "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc6b3fb79467c38c5029c7b0b0192c8af3d83d41",
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/cc6b3fb79467c38c5029c7b0b0192c8af3d83d41",
+        "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/cc6b3fb79467c38c5029c7b0b0192c8af3d83d41"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "commit": {
+      "author": {
+        "name": "Andrew Hutchings",
+        "email": "andrew.hutchings@gmail.com",
+        "date": "2016-02-12T17:18:48Z"
+      },
+      "committer": {
+        "name": "Andrew Hutchings",
+        "email": "andrew.hutchings@gmail.com",
+        "date": "2016-02-12T17:18:48Z"
+      },
+      "message": "Fix lint error",
+      "tree": {
+        "sha": "82efc93f566266f1ed02c86cac43c3b2894f919a",
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/82efc93f566266f1ed02c86cac43c3b2894f919a"
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+    "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893/comments",
+    "author": {
+      "login": "ahutchings",
+      "id": 35026,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahutchings",
+      "html_url": "https://github.com/ahutchings",
+      "followers_url": "https://api.github.com/users/ahutchings/followers",
+      "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+      "repos_url": "https://api.github.com/users/ahutchings/repos",
+      "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ahutchings",
+      "id": 35026,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahutchings",
+      "html_url": "https://github.com/ahutchings",
+      "followers_url": "https://api.github.com/users/ahutchings/followers",
+      "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+      "repos_url": "https://api.github.com/users/ahutchings/repos",
+      "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc6b3fb79467c38c5029c7b0b0192c8af3d83d41",
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/cc6b3fb79467c38c5029c7b0b0192c8af3d83d41",
+        "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/cc6b3fb79467c38c5029c7b0b0192c8af3d83d41"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 4,
+  "behind_by": 0,
+  "total_commits": 4,
+  "commits": [
+    {
+      "sha": "b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+      "commit": {
+        "author": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T17:24:16Z"
+        },
+        "committer": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T17:24:16Z"
+        },
+        "message": "Set language for the code snippet in the README",
+        "tree": {
+          "sha": "e8bf67ecb5a05792eb42aabc5796eee2f90bf652",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/e8bf67ecb5a05792eb42aabc5796eee2f90bf652"
+        },
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+      "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+      "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/b6f53c493b5b00ad5b416b15de5c770cea3a85e7/comments",
+      "author": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+          "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/7a9c8c63b50978a718819425ea6abd2ec1b6f893"
+        }
+      ]
+    },
+    {
+      "sha": "7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+      "commit": {
+        "author": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T17:25:06Z"
+        },
+        "committer": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T17:25:06Z"
+        },
+        "message": "Use HTTPS",
+        "tree": {
+          "sha": "dc8d14f995964c3b39354f86ea5eb01b32cd9e0a",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/dc8d14f995964c3b39354f86ea5eb01b32cd9e0a"
+        },
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+      "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+      "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7b1f6fc042b8974c6877a57affdb47c64190ae7d/comments",
+      "author": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/b6f53c493b5b00ad5b416b15de5c770cea3a85e7",
+          "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/b6f53c493b5b00ad5b416b15de5c770cea3a85e7"
+        }
+      ]
+    },
+    {
+      "sha": "3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+      "commit": {
+        "author": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T18:07:38Z"
+        },
+        "committer": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T18:07:38Z"
+        },
+        "message": "Use correct URL for Stash",
+        "tree": {
+          "sha": "4c64413f776398feeb38a607a71b36c08f0da0b3",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/4c64413f776398feeb38a607a71b36c08f0da0b3"
+        },
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+      "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+      "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c/comments",
+      "author": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/7b1f6fc042b8974c6877a57affdb47c64190ae7d",
+          "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/7b1f6fc042b8974c6877a57affdb47c64190ae7d"
+        }
+      ]
+    },
+    {
+      "sha": "b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "commit": {
+        "author": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T19:10:45Z"
+        },
+        "committer": {
+          "name": "Andrew Hutchings",
+          "email": "andrew.hutchings@gmail.com",
+          "date": "2016-02-12T19:10:45Z"
+        },
+        "message": "Drop npm change resolver",
+        "tree": {
+          "sha": "efa7b6fed3f2b05c50fbdce0c6630f844fc86c96",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/trees/efa7b6fed3f2b05c50fbdce0c6630f844fc86c96"
+        },
+        "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/git/commits/b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "comments_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/comments",
+      "author": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ahutchings",
+        "id": 35026,
+        "avatar_url": "https://avatars.githubusercontent.com/u/35026?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ahutchings",
+        "html_url": "https://github.com/ahutchings",
+        "followers_url": "https://api.github.com/users/ahutchings/followers",
+        "following_url": "https://api.github.com/users/ahutchings/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ahutchings/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ahutchings/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ahutchings/subscriptions",
+        "organizations_url": "https://api.github.com/users/ahutchings/orgs",
+        "repos_url": "https://api.github.com/users/ahutchings/repos",
+        "events_url": "https://api.github.com/users/ahutchings/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ahutchings/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+          "url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/commits/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c",
+          "html_url": "https://github.com/ahutchings/shrinkwrap-changelog/commit/3bf2f5194608ceaa8e72a862d47d1c73cb8e9a3c"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "a9605f5c8a8046be1df5c71b7984fbd7812b63e7",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/README.md",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/README.md",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/README.md?ref=b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "patch": "@@ -5,7 +5,7 @@\n \n ## API Usage\n \n-```\n+```javascript\n var stashResolver = require('shrinkwrap-changelog/lib/change-resolvers/stashResolver')\n \n var generateChangelog = require('shrinkwrap-changelog')({"
+    },
+    {
+      "sha": "618de58457e001be5a5d5b92aa10002474960cb2",
+      "filename": "lib/change-resolvers/npm.js",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 7,
+      "changes": 7,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/7a9c8c63b50978a718819425ea6abd2ec1b6f893/lib/change-resolvers/npm.js",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/7a9c8c63b50978a718819425ea6abd2ec1b6f893/lib/change-resolvers/npm.js",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/lib/change-resolvers/npm.js?ref=7a9c8c63b50978a718819425ea6abd2ec1b6f893",
+      "patch": "@@ -1,7 +0,0 @@\n-function buildNpmResolver () {\n-  return function npmResolver (previous, current) {\n-    return Promise.reject(new Error('not implemented'))\n-  }\n-}\n-\n-module.exports = buildNpmResolver"
+    },
+    {
+      "sha": "7552bf082c221c7c0d2d81c5463fc986f92b3a30",
+      "filename": "lib/change-resolvers/stash.js",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/lib/change-resolvers/stash.js",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/lib/change-resolvers/stash.js",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/lib/change-resolvers/stash.js?ref=b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "patch": "@@ -6,7 +6,7 @@ function buildPathnameAndQuery (options) {\n     options.projectkey +\n     '/repos/' +\n     options.repositoryslug +\n-    '/compare/commits'\n+    '/commits'\n \n   var query = {\n     from: options.from,"
+    },
+    {
+      "sha": "824752a4f848be1585480ef1016eade57b8d4820",
+      "filename": "lib/resolve-changes.js",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "changes": 2,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/lib/resolve-changes.js",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/lib/resolve-changes.js",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/lib/resolve-changes.js?ref=b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "patch": "@@ -1,9 +1,7 @@\n var githubResolver = require('./change-resolvers/github')()\n-var npmResolver = require('./change-resolvers/npm')()\n \n function createResolver (customResolvers = []) {\n   var resolvers = customResolvers.concat([\n-    npmResolver,\n     githubResolver\n   ])\n "
+    },
+    {
+      "sha": "15949cacfd6f9f7c5ee6c1891641a4016830191e",
+      "filename": "package.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/package.json",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/package.json",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/package.json?ref=b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "patch": "@@ -13,7 +13,7 @@\n     \"type\": \"git\",\n     \"url\": \"https://github.com/ahutchings/shrinkwrap-changelog.git\"\n   },\n-  \"author\": \"Andrew Hutchings <andrew.hutchings@gmail.com> (http://andrewhutchings.com)\",\n+  \"author\": \"Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)\",\n   \"license\": \"ISC\",\n   \"devDependencies\": {\n     \"proxyquire\": \"^1.7.4\","
+    },
+    {
+      "sha": "4a603238a46cb07bf7f7d1edc5ff11a9967209e7",
+      "filename": "test/stash-change-resolver.js",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ahutchings/shrinkwrap-changelog/blob/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/test/stash-change-resolver.js",
+      "raw_url": "https://github.com/ahutchings/shrinkwrap-changelog/raw/b67b988d7aea4b2b23d43a45416bf41ea14dce2e/test/stash-change-resolver.js",
+      "contents_url": "https://api.github.com/repos/ahutchings/shrinkwrap-changelog/contents/test/stash-change-resolver.js?ref=b67b988d7aea4b2b23d43a45416bf41ea14dce2e",
+      "patch": "@@ -68,7 +68,7 @@ test('builds stash request url', function (t) {\n \n   resolver(previous, current)\n \n-  var expectedUrl = 'https://stash.mycompany.com/rest/api/1.0/projects/myproject/repos/myrepository/compare/commits?from=b0e7b9ad9d74e3338943c80fec64e3e72c088660&to=e647c363347589feaeca1fbb5de4d2efccea9d68'\n+  var expectedUrl = 'https://stash.mycompany.com/rest/api/1.0/projects/myproject/repos/myrepository/commits?from=b0e7b9ad9d74e3338943c80fec64e3e72c088660&to=e647c363347589feaeca1fbb5de4d2efccea9d68'\n   t.equal(requestedUrl, expectedUrl)\n })\n "
+    }
+  ]
+}
