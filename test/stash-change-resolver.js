@@ -116,7 +116,6 @@ test('resolves changes for a stash package', function (t) {
   }]
 
   resolver(previous, current).then((actual) => {
-    // assert something
     t.deepEqual(actual, expected)
     t.end()
   }).catch((error) => {
