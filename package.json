@@ -2,7 +2,7 @@
   "name": "shrinkwrap-changelog",
   "version": "1.0.0",
   "description": "Generates a changelog based on the difference between two shrinkwrap files.",
-  "bin": "bin/shrinkwrap-changelog",
+  "bin": "bin/shrinkwrap-changelog.js",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test/*.js"
@@ -21,5 +21,12 @@
     "bluebird": "^3.3.0",
     "child-process-promise": "^1.1.0",
     "npm-package-arg": "^4.1.0"
-  }
+  },
+  "keywords": [
+    "shrinkwrap",
+    "changelog",
+    "github",
+    "npm"
+  ],
+  "bugs": "https://github.com/ahutchings/shrinkwrap-changelog/issues"
 }
