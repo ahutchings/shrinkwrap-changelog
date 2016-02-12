@@ -42,7 +42,7 @@ test('builds stash request url', function (t) {
     }
   })
 
-  var requestedUrl;
+  var requestedUrl
   var fetchStub = function (requestUrl) {
     requestedUrl = requestUrl
     return responsePromise
