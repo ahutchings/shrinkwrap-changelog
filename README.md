@@ -1,5 +1,7 @@
 # shrinkwrap-changelog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ahutchings/shrinkwrap-changelog.svg)](https://greenkeeper.io/)
+
 [![build status](https://img.shields.io/travis/ahutchings/shrinkwrap-changelog/master.svg?style=flat-square)](https://travis-ci.org/ahutchings/shrinkwrap-changelog)
 
 
